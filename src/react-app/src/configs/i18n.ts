@@ -4,8 +4,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
 const backendOptions = {
-  // loadPath: `https://dhqbrvplips7x.cloudfront.net/client-auth/PCM-1645---Translations/Config-2/${process.env.PUBLIC_URL}i18n/{{lng}}.json`,
-  loadPath: `${process.env.PUBLIC_URL}i18n/{{lng}}.json`
+  loadPath: `https://dhqbrvplips7x.cloudfront.net/client-auth/PCM-1645---Translations/Config-2/${process.env.REACT_APP_PUBLIC_URL}i18n/{{lng}}.json`,
+  // loadPath: `${process.env.PUBLIC_URL}i18n/{{lng}}.json`
 };
 i18n
   .use(Backend)

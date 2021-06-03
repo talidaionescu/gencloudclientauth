@@ -6,7 +6,7 @@ import { registerElements } from './configs/registerGUXComponents';
 import './configs/i18n';
 
 registerElements();
-console.log('public url: ', process.env.PUBLIC_URL);
+console.log('public url: ', process.env.REACT_APP_PUBLIC_URL);
 
 ReactDOM.render(
   <React.StrictMode>
